@@ -1,0 +1,16 @@
+<template>
+  <view>GangUp Page</view>
+</template>
+
+<script>
+export default {
+  config: {
+    navigationBarTitleText: '大C开黑计划',
+    usingComponents: {}
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

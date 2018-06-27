@@ -1,0 +1,16 @@
+<template>
+  <view>IntegralRank Page</view>
+</template>
+
+<script>
+export default {
+  config: {
+    navigationBarTitleText: '大积分榜',
+    usingComponents: {}
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

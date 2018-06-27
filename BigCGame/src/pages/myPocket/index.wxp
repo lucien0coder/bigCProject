@@ -1,0 +1,16 @@
+<template>
+  <view>MyPocket Page</view>
+</template>
+
+<script>
+export default {
+  config: {
+    navigationBarTitleText: '我的口袋',
+    usingComponents: {}
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

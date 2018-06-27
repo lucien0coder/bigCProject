@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "layout-head": "../../common/layout/head",
+    "layout-foot": "../../common/layout/foot",
+    "wxc-list": "../../packages/@minui/wxc-list/dist/index"
+  },
+  "navigationBarTitleText": "大C积分榜"
+}

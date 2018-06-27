@@ -1,0 +1,8 @@
+<view>
+  <layout-head _pid="{{_pid}}"></layout-head>
+
+  <!-- wxp template -->
+  <wxc-select items="{{location}}" color="#28a745" bind:change="onChange"></wxc-select>
+
+  <layout-foot _pid="{{_pid}}"></layout-foot>
+</view>
