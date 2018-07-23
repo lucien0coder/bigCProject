@@ -1,0 +1,7 @@
+.wrap {
+  padding: 10rpx;
+}
+.remain_text {
+  color: coral;
+  padding-top: 15rpx;
+}

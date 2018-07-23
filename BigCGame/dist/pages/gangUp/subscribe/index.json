@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "wxc-panel": "../../../packages/@minui/wxc-panel/dist/index",
+    "wxc-flex": "../../../packages/@minui/wxc-flex/dist/index",
+    "wxc-button": "../../../packages/@minui/wxc-button/dist/index"
+  },
+  "navigationBarTitleText": "大C预约开黑"
+}

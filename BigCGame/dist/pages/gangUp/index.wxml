@@ -1,8 +1,55 @@
 <view>
-  <layout-head _pid="{{_pid}}"></layout-head>
 
-  <!-- wxp template -->
-  <wxc-select items="{{location}}" color="#28a745" bind:change="onChange"></wxc-select>
+  <!-- 公告 -->
+  <wxc-panel margin="{{false}}">
+    <wxc-select items="{{location}}" color="#28a745" checked="1" bind:change="onChange"></wxc-select>
 
-  <layout-foot _pid="{{_pid}}"></layout-foot>
+    <wxc-flex main="around" id="schedule">
+      <view>
+          <text>A</text>
+          <text>B</text>
+          <text>C</text>
+          <text>D</text>
+          <text>E</text>
+      </view>
+      <view id="Info">
+        <text>2018-06-18 10点 \n <text>vs</text></text>
+      </view>
+      <view id="BTeam">
+          <text>A</text>
+          <text>B</text>
+          <text>C</text>
+          <text>D</text>
+          <text>E</text>
+      </view>
+    </wxc-flex>
+
+  </wxc-panel>
+
+  <!-- 奖品 -->
+  <wxc-panel title="第 {{thisPeriod.key}} 期奖品({{thisPeriod.date}})">
+    <wxc-flex main="center">
+      <view wx:for-item="icon">
+        <wxc-icon size="50" type="yes"></wxc-icon>
+        <text>\n 一等奖</text>
+      </view>
+    </wxc-flex>
+    <wxc-flex main="around">
+      <wxc-icon size="50" type="coupon"></wxc-icon>
+      <wxc-icon size="50" type="coupon"></wxc-icon>
+    </wxc-flex>
+    <view class="content">
+      <text>sdfs \n fsfsd \n sdfrr \n sdfs \n fsfsd \n sdfrr</text>
+    </view>
+  </wxc-panel>
+
+  <!-- 预约规则 -->
+  <wxc-panel title="大C开黑预约规则">
+    <view class="content">
+      <text>sdfs \n fsfsd \n sdfrr \n sdfs \n fsfsd \n sdfrr</text>
+    </view>
+  </wxc-panel>
+
+  <layout-foot wx:if="{{isSubscribe}}" _pid="{{_pid}}"></layout-foot>
+
 </view>

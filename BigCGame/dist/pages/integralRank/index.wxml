@@ -1,7 +1,4 @@
 <view>
-  <layout-head _pid="{{_pid}}"></layout-head>
-
-  <!-- wxp template -->
   <view class='list-wrap'>
     <view class='list-item'>
       <wxc-list wx:for="{{integralRankList}}" wx:key="index" arrow="{{false}}" title="{{item.name}}" src="{{item.src}}" detail="{{item.integrals}} 分" desc="第 {{index+1}} 名">
@@ -9,5 +6,4 @@
     </view>
   </view>
 
-  <layout-foot _pid="{{_pid}}"></layout-foot>
 </view>

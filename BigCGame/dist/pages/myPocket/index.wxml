@@ -1,8 +1,25 @@
-<view>
-    <layout-head _pid="{{_pid}}"></layout-head>
+<wxc-panel>
+  <view class='list-wrap'>
+    <view class='list-item'>
+      <wxc-list wx:for="{{cards}}" wx:key="index" arrow="{{false}}" title="{{item.type}}" bindtap="check" data-name="{{item.name}}" data-number="{{item.number}}" data-date="{{item.date}}">
+        <wxc-flex class='wrap'>
+          <wxc-avatar class="avatar" mold="square" src="../../common/img/400x400.jpg"></wxc-avatar> 
+          <view class='item main'>
+            截止兑换日期：{{item.date}}
+          </view>
+        </wxc-flex>
+      </wxc-list>
+    </view>
+  </view>
 
-    <!-- wxp template -->
-    <view>MyPocket Page</view>
-
-    <layout-foot _pid="{{_pid}}"></layout-foot>
-</view>
+  <wxc-mask status="{{maskStatus}}" locked="false">
+    <view class="quan_detals">
+      <view class='detail_main'>
+        <view class='product_line'>{{cardName}}</view>
+        <view>{{cardNO}}</view>
+        <view>截止期：{{cardDate}}</view>
+      </view>
+      <button bindtap="close">关闭</button>
+    </view>
+  </wxc-mask>
+</wxc-panel>

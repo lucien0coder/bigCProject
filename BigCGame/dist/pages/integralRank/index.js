@@ -30,6 +30,26 @@ exports.default = Page({
       "integrals": "40",
       "src": "https://s10.mogucdn.com/mlcdn/c45406/170603_55gkg003el4k2jbg2d2ieh030fjcf_38x38.png",
       "record": "胜-5, 平-13, 输-23"
+    },{
+      "name": "DOT Cen",
+      "integrals": "40",
+      "src": "https://s10.mogucdn.com/mlcdn/c45406/170603_55gkg003el4k2jbg2d2ieh030fjcf_38x38.png",
+      "record": "胜-5, 平-13, 输-23"
+    },{
+      "name": "DOT Cen",
+      "integrals": "40",
+      "src": "https://s10.mogucdn.com/mlcdn/c45406/170603_55gkg003el4k2jbg2d2ieh030fjcf_38x38.png",
+      "record": "胜-5, 平-13, 输-23"
+    },{
+      "name": "DOT Cen",
+      "integrals": "40",
+      "src": "https://s10.mogucdn.com/mlcdn/c45406/170603_55gkg003el4k2jbg2d2ieh030fjcf_38x38.png",
+      "record": "胜-5, 平-13, 输-23"
+    },{
+      "name": "DOT Cen",
+      "integrals": "40",
+      "src": "https://s10.mogucdn.com/mlcdn/c45406/170603_55gkg003el4k2jbg2d2ieh030fjcf_38x38.png",
+      "record": "胜-5, 平-13, 输-23"
     }]
   }
 });

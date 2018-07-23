@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/myPocket/index",
     "pages/gangUp/index",
+    "pages/gangUp/subscribe/index",
     "pages/integralRank/index",
-    "pages/home/index",
-    "pages/myPocket/index"
+    "pages/home/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -12,23 +13,27 @@
     "navigationBarTitleText": "BigCGame",
     "navigationBarTextStyle": "black"
   },
-  "tabBar":{
-    "list": [{
-      "pagePath": "pages/integralRank/index",
-      "text": "RANK",
-      "iconPath": "common/img/rank.png",
-      "selectedIconPath": "common/img/rank-st.png"
-    },{
-      "pagePath": "pages/gangUp/index",
-      "text": "GAN!",
-      "iconPath": "common/img/gan.png",
-      "selectedIconPath": "common/img/gan-st.png"
-    },{
-      "pagePath": "pages/myPocket/index",
-      "text": "POCKET",
-      "iconPath": "common/img/pocket.png",
-      "selectedIconPath": "common/img/pocket-st.png"
-    }]
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/integralRank/index",
+        "text": "RANK",
+        "iconPath": "common/img/rank.png",
+        "selectedIconPath": "common/img/rank-st.png"
+      },
+      {
+        "pagePath": "pages/gangUp/index",
+        "text": "GAN!",
+        "iconPath": "common/img/gan.png",
+        "selectedIconPath": "common/img/gan-st.png"
+      },
+      {
+        "pagePath": "pages/myPocket/index",
+        "text": "POCKET",
+        "iconPath": "common/img/pocket.png",
+        "selectedIconPath": "common/img/pocket-st.png"
+      }
+    ]
   },
   "networkTimeout": {
     "request": 10000

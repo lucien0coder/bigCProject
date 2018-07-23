@@ -1,0 +1,23 @@
+<wxc-panel margin='{{false}}'>
+  <wxc-flex class="wrap" main="around">
+    <view wx:for="{{locations}}" wx:for-item="location" wx:key="index">
+      <wxc-button plain="{{index != selectedLocalID}}" data-index="{{index}}" type='beauty' value='{{location}}' bindtap='selectLocation'></wxc-button>
+    </view>
+  </wxc-flex>
+</wxc-panel>
+<wxc-panel>
+  <wxc-flex class="wrap" cross="center" dir="top">
+    <view class='wrap' wx:for="{{times}}" wx:for-item="time" wx:key="index">
+      <wxc-button plain='{{index != selectedTimeID}}' size="large" type='success' data-index="{{index}}" value="{{time}}" bindtap='selectTime'></wxc-button>
+    </view>
+    <text class='remain_text'>本场预约剩余名额：3 人</text>
+  </wxc-flex>
+</wxc-panel>
+
+<wxc-panel>
+  <wxc-flex class="wrap" main="center">
+    <view> 
+      <wxc-button type='beauty' value='确定预约'></wxc-button>
+    </view>
+  </wxc-flex>
+</wxc-panel>

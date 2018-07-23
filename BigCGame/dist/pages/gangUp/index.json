@@ -1,8 +1,10 @@
 {
   "usingComponents": {
-    "layout-head": "../../common/layout/head",
     "layout-foot": "../../common/layout/foot",
-    "wxc-select": "../../packages/@minui/wxc-select/dist/index"
+    "wxc-select": "../../packages/@minui/wxc-select/dist/index",
+    "wxc-panel": "../../packages/@minui/wxc-panel/dist/index",
+    "wxc-flex": "../../packages/@minui/wxc-flex/dist/index",
+    "wxc-icon": "../../packages/@minui/wxc-icon/dist/index"
   },
   "navigationBarTitleText": "大C开黑公告"
 }
