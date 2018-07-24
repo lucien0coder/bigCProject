@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/myPocket/index",
     "pages/gangUp/index",
+    "pages/myPocket/index",
     "pages/gangUp/subscribe/index",
     "pages/integralRank/index",
     "pages/home/index"

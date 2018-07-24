@@ -13,7 +13,8 @@
           <text>E</text>
       </view>
       <view id="Info">
-        <text>2018-06-18 10点 \n <text>vs</text></text>
+        <text>2018-06-18 10点 \n </text>
+        <text class='vs'>vs</text>
       </view>
       <view id="BTeam">
           <text>A</text>
